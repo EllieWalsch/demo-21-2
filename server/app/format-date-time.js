@@ -13,6 +13,4 @@ function formatCurrentDateTime() {
   return current.toLocaleDateString("en-US", options);
 }
 
-console.log(formatCurrentDateTime());
-
 export default formatCurrentDateTime;

@@ -11,7 +11,7 @@ const ProfileSchema = new Schema({
     // No need for a separate SCHEMA for primitive types
     {
       type: String,
-      required: true,
+      default: [],
     },
   ],
 });

@@ -7,7 +7,7 @@
   "scripts": {
     "client": "cd client && npm run dev",
     "install": "cd client && npm install && cd ../server && npm install",
-    "server": "node --watch server/src/index.js",
+    "server": "node --watch server/app/index.js",
     "start": "concurrently \"npm run server\" \"npm run client\""
   }
 }

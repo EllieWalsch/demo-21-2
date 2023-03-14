@@ -2,12 +2,7 @@
   "name": "mern-demos-21-2",
   "private": true,
   "dependencies": {
-    "@apollo/server": "^4.5.0",
-    "concurrently": "^7.6.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.1"
+    "concurrently": "^7.6.0"
   },
   "scripts": {
     "client": "cd client && npm run dev",

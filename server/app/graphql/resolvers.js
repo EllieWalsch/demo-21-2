@@ -1,5 +1,5 @@
-import ProfileController from "../profile/index.js";
-import ThoughtController from "../thought/index.js";
+import ProfileController from "../profile/controller.js";
+import ThoughtController from "../thought/controller.js";
 
 const resolvers = {
   Query: {

@@ -7,6 +7,9 @@ const controller = {
   index() {
     return Profile.find({});
   },
+  show(profileId) {
+    return Profile.findById(profileId);
+  },
   delete(profileId) {
     return Profile.findByIdAndDelete(profileId);
   },

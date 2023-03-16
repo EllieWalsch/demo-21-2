@@ -8,9 +8,9 @@ export const THOUGHTS = gql`
       thoughtAuthor
       createdAt
       comments {
-        id
         commentText
         createdAt
+        id
       }
     }
   }

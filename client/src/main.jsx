@@ -6,7 +6,7 @@ import App from "./App";
 import "./main.css";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000",
+  uri: "http://localhost:4000/",
   cache: new InMemoryCache(),
 });
 

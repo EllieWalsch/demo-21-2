@@ -2,7 +2,7 @@ import { model, Schema } from "mongoose";
 import formatDateTime from "../format-date-time.js";
 import CommentSchema from "./comment-schema.js";
 
-const ThoughtSchema = new Schema(
+export const ThoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
